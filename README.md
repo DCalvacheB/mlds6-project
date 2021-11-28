@@ -1,5 +1,6 @@
 # mlds6 Team Data Science Project Template
 
+Est proyecto se trata´ra un demodelo de propensión de compra para un producto del banco Unibank. 
 This template is an implementation of the Microsoft's Team Data Science Project Template that is currently used at the "Programa de Formación en Machine Learning and Data Science" at Universidad Nacional de Colombia.
 
 You'll need tools like `poetry` (default), `venv`, `pyenv` (default), `renv`, `conda`, among others for dependency management and resolution.
