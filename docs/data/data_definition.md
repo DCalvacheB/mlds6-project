@@ -24,17 +24,16 @@ actuales de Unibank, la forma en que se realizó el contacto durante la campaña
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](link/to/dataset1/report), [Dataset2](link/to/dataset2/report) | [Python_Script1.py](link/to/python/script/file/in/Code) | [Processed Dataset 1 Report](link/to/report1)|
-| Processed Dataset 2 | [Dataset2](link/to/dataset2/report) |[script2.R](link/to/R/script/file/in/Code) | [Processed Dataset 2 Report](link/to/report2)|
-* Processed Data1 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data1 Report.>
-* Processed Data2 summary. <Provide brief summary of the processed data, such as why you want to process data in this way. More detailed information about the processed data should be in the Processed Data2 Report.> 
+| Processed Dataset 1 | [Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Train%20bank.csv) | [processed_data.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processed_data.py) | [Processed Dataset 1 Report](link/to/report1)|
+
+* Processed Data1 summary. Se arreglo el nombre de las variables, dada la presencia de problemas ortográficos de comillas "" adicionales. Se borraron comillas "" adicioanles presentes tambien en los valores y los datos nulos. En dependencia del tipo de variable del conjunto de datos, se procesaron por grupos en categórica, ordinal, númerica y binaria.
+
 
 ## Feature Sets
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Feature Set 1 | [Dataset1](link/to/dataset1/report), [Processed Dataset2](link/to/dataset2/report) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
-| Feature Set 2 | [Processed Dataset2](link/to/dataset2/report) |[SQL_Script2.sql](link/to/sql/script/file/in/Code) | [Feature Set2 Report](link/to/report2)|
+| Feature Set 1 | [Processed Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processtrainbank.csv) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
 
-* Feature Set1 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set1 Report.>
-* Feature Set2 summary. <Provide detailed description of the feature set, such as the meaning of each feature. More detailed information about the feature set should be in the Feature Set2 Report.> 
+* Feature Set1 summary. Se genera y se utiliza el dataset procesado en formato csv como entrada. 
+
