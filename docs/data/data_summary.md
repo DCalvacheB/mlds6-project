@@ -11,11 +11,16 @@ No hay valores nulos ni repetidos.
 Subscription. Variable binaria: ¿el cliente adquirió el producto?: "sí", "no".
 
 ## Individual variables
+
 Son # variables categóricas:
+
 Son # variables ordianles: 
+
 Son # variables númericas: 
+
 Son # variables binarias: 
 
+```
 1 - Age
 2 - Job: tipo de trabajo (categórico: "admin.", "Desconocido", "desempleado", "gerencia", "empleada doméstica", "emprendedor", "estudiante", "obrero", "autónomo" , "jubilado", "técnico", "servicios")
 3 – Marital Status: estado civil (categórico: "casado", "divorciado", "soltero"; nota: "divorciado" significa divorciado o viudo)
@@ -34,6 +39,7 @@ Otros:
 14 - pdays: número de días que pasaron después de que el cliente fue contactado por última vez desde una campaña anterior (-1 significa que el cliente no fue contactado previamente)
 15 - Previous número de contactos realizados antes de esta campaña y para este cliente.
 16 - poutcome: resultado de la campaña de marketing anterior (categórico: "desconocido", "otro", "fracaso", "éxito").
+````
 
 ## Variable ranking
 Las variables principales serian en orden:
