@@ -51,4 +51,12 @@ Campaign
 
 ## Relationship between explanatory variables and target variable
 
+Se adjunta el código utilizado:
+
+```
+from pandas_profiling import ProfileReport
+profile = ProfileReport(data, minimal=True)
+profile.to_file(output_file="Bank profiling.html")
+```
+
 Se adjunta [link](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Bank%20profiling%20min.html) de pandas profiling con informe gráfico.
