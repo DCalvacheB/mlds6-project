@@ -18,7 +18,7 @@ Son # variables ordianles:
 
 Son # variables númericas: 
 
-Son # variables binarias: 
+Son 4 variables binarias: 
 
 ```
 1 - Age
