@@ -51,4 +51,4 @@ Campaign
 
 ## Relationship between explanatory variables and target variable
 
-Se adjunta link de pandas profiling con informe gráfico.
+Se adjunta [link](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Bank%20profiling%20min.html) de pandas profiling con informe gráfico.
