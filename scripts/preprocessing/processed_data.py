@@ -38,3 +38,5 @@ for col in data.columns:
     data[col] = data[col].eq("yes").mul(1)
 
 data.to_csv("processtrainbank.csv",index=False)
+
+print(data)
