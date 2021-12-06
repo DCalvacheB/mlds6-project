@@ -5,6 +5,8 @@ Se adjunta [link html](https://github.com/DCalvacheB/mlds6-project/blob/master/s
 
 Se adjunta [link del pdf](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Pandas%20Profiling%20Report.pdf) del reporte de pandas profiling.
 
+[Script](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/datasummary.py)
+
 ## General summary of the data
 Son 31648 filas y 17 columnas.
 
