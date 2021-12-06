@@ -10,6 +10,8 @@ Se adjunta [link del pdf](https://github.com/DCalvacheB/mlds6-project/blob/maste
 ## General summary of the data
 Son 31648 filas y 17 columnas.
 
+![](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Overview.png)
+
 ## Data quality summary
 No hay valores nulos ni repetidos.
 
