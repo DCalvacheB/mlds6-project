@@ -24,7 +24,7 @@ actuales de Unibank, la forma en que se realizó el contacto durante la campaña
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Train%20bank.csv) | [processed_data.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processed_data.py) | [Processed Dataset 1 Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_summary.md)|
+| Processed Dataset 1 | [Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Train%20bank.csv) | [processed_data.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processed_data.py) | [Processed Dataset 1 Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_processed_report.md)|
 
 * Processed Data1 summary. Se arreglo el nombre de las variables, dada la presencia de problemas ortográficos de comillas "" adicionales. Se borraron comillas "" adicionales presentes tambien en los valores y los datos nulos. En dependencia del tipo de variable del conjunto de datos, se procesaron por grupos en categórica, ordinal, númerica y binaria, mediante OneHotEncoder, MinMaxScaler, StandardScaler y FunctionTransformer respectivamente.
     
