@@ -1,0 +1,45 @@
+# Baseline Model Report
+
+_Baseline model is the the model a data scientist would train and evaluate quickly after he/she has the first (preliminary) feature set ready for the machine learning modeling. Through building the baseline model, the data scientist can have a quick assessment of the feasibility of the machine learning task._
+
+> If using the Automated Modeling and Reporting tool, most of the sections below will be generated automatically from this tool. 
+
+## Analytic Approach
+* El propósito del modelo a desarrollar es identificar a las personas con mayor propensión de aceptar el nuevo producto de Unibank "Billetera Virtual"
+* Se utilizó en primera medida el servicio "AutoAI" de IBM Cloud Pak 4 data para conocer las técnicas de modelado 
+* Las entradas del modelo contienen información de la campaña anterior, y datos personales del cliente, las cuales se definen en el (data_summary.md) [https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_summary.md]
+
+* What kind of model was built?
+
+
+## Model Description
+
+* Models and Parameters
+
+	* Description or images of data flow graph
+  		* if AzureML, link to:
+    		* Training experiment
+    		* Scoring workflow
+	* What learner(s) were used?
+	* Learner hyper-parameters
+
+
+## Results (Model Performance)
+* ROC/Lift charts, AUC, R^2, MAPE as appropriate
+* Performance graphs for parameters sweeps if applicable
+
+## Model Understanding
+
+* Variable Importance (significance)
+
+* Insight Derived from the Model
+
+## Conclusion and Discussions for Next Steps
+
+* Conclusion on Feasibility Assessment of the Machine Learning Task
+
+* Discussion on Overfitting (If Applicable)
+
+* What other Features Can Be Generated from the Current Data
+
+* What other Relevant Data Sources Are Available to Help the Modeling

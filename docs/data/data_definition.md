@@ -14,7 +14,7 @@ _**For ease of modifying this report, placeholder links are included in this pag
 
 | Dataset Name | Original Location   | Destination Location  | Data Movement Tools / Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | -----: |
-| Dataset 1 | Concurso Privado de Kaggle: Los datos provistos son para fines académicos unicamente. |  | [preparacionDatos.ipynb](tdsp_template/data/data_adquisition/) | [Reporte 1 DatosClieente]()|
+| Dataset 1 | Concurso Privado de Kaggle: Los datos provistos son para fines académicos unicamente. |  | [preparacionDatos.ipynb](tdsp_template/scripts/data_adquisition/) | [Reporte 1 DatosClieente]()|
 
 
 * Dataset1 summary. Contiene los datos de la última campaña realizada por el banco de un producto similar. Contiene los datos sociodemográficos de los clientes 
@@ -33,7 +33,7 @@ actuales de Unibank, la forma en que se realizó el contacto durante la campaña
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Feature Set 1 | [Processed Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processtrainbank.csv) | [R_Script2.R](link/to/R/script/file/in/Code) | [Feature Set1 Report](link/to/report1)|
+|"featuretrainbank.csv" | [ processtrainbank.csv ](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processtrainbank.csv) | [featuring.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/featuring.py) | [featuretrainbank Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_summary.md))|
 
-* Feature Set1 summary. Se genera y se utiliza el dataset procesado en formato csv como entrada. 
+*"featuretrainbank.csv". Recibe como insumo "processtrainbank.csv" y utiliza un objeto ColumnTransformer de sklearn para dejar las variables numéricas. 
 
