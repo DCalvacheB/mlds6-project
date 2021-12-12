@@ -24,16 +24,20 @@ actuales de Unibank, la forma en que se realizó el contacto durante la campaña
 ## Processed Data
 | Processed Dataset Name | Input Dataset(s)   | Data Processing Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
-| Processed Dataset 1 | [Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Train%20bank.csv) | [processed_data.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processed_data.py) | [Processed Dataset 1 Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_summary.md)|
+| Processed Dataset 1 | [Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Train%20bank.csv) | [processed_data.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processed_data.py) | [Processed Dataset 1 Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_processed_report.md)|
 
-* Processed Data1 summary. Se arreglo el nombre de las variables, dada la presencia de problemas ortográficos de comillas "" adicionales. Se borraron comillas "" adicionales presentes tambien en los valores y los datos nulos. En dependencia del tipo de variable del conjunto de datos, se procesaron por grupos en categórica, ordinal, númerica y binaria.
-
-
+* Processed Data1 summary. Se desea arreglar problamas de nombres o contenido de las variables y organizar el conjunto de datos por tipos de variables.
+    
+    
 ## Feature Sets
 
 | Feature Set Name | Input Dataset(s)   | Feature Engineering Tools/Scripts | Link to Report |
 | ---:| ---: | ---: | ---: | 
+<<<<<<< HEAD
 |"featuretrainbank.csv" | [ processtrainbank.csv ](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processtrainbank.csv) | [featuring.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/featuring.py) | [featuretrainbank Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_summary.md))|
+=======
+| Feature Set 1 | [Processed Dataset1](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/processtrainbank.csv) | [featuring.py](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/featuring.py) | [Feature Set1 Report](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/data/data_feature_report.md)|
+>>>>>>> 60358b6ecf07aad4c023d717fc6a7d227ffd1601
 
 *"featuretrainbank.csv". Recibe como insumo "processtrainbank.csv" y utiliza un objeto ColumnTransformer de sklearn para dejar las variables numéricas. 
 

@@ -1,8 +1,16 @@
 # Data Report
 Este reporte contiene los resultados del análisis exploratorio de los datos.
 
+Se adjunta [link html](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Bank%20profiling%20min.html) de pandas profiling con informe gráfico.
+
+Se adjunta [link del pdf](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Pandas%20Profiling%20Report.pdf) del reporte de pandas profiling.
+
+[Script](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/datasummary.py)
+
 ## General summary of the data
 Son 31648 filas y 17 columnas.
+
+![](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/Overview.png)
 
 ## Data quality summary
 No hay valores nulos ni repetidos.
@@ -12,13 +20,9 @@ Subscription. Variable binaria: ¿el cliente adquirió el producto?: "sí", "no"
 
 ## Individual variables
 
-Son # variables categóricas:
+Son 7 variables categóricas:
 
-Son # variables ordianles: 
-
-Son # variables númericas: 
-
-Son # variables binarias: 
+Son 10 variables númericas: 
 
 ```
 1 - Age
@@ -43,12 +47,36 @@ Otros:
 
 ## Variable ranking
 Las variables principales serian en orden:
+
 Credito
+
 Balance.euros
+
 Housing.Loan
+
 Personal.Loan
+
 Campaign
 
 ## Relationship between explanatory variables and target variable
 
-Se adjunta link de pandas profiling con informe gráfico.
+Correlación de la variable Subscription con las demás variables.
+
+```[('Age', 0.01978331931739655),
+ ('Last.Contact.Day', -0.032758728230326266),
+ ('Campaign', -0.07447319499535197),
+ ('Previous', 0.09021659134469255),
+ ('Pdays', 0.10912924335766083),
+ ('Balance..euros.', 0.055392299759917454),
+ ('Last.Contact.Duration', 0.39277123377297957),
+ ('Credit', -0.02275449590400965),
+ ('Housing.Loan', -0.1369194817428766),
+ ('Personal.Loan', -0.06948658523878946)]
+ ```
+ 
+ ![](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/preprocessing/correlacion.png)
+ 
+
+
+
+
