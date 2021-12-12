@@ -1,9 +1,6 @@
 # Baseline Model Report
 
 
-
-. 
-
 ## Analytic Approach
 
 * El propósito del modelo generado es predecir quienes son los clientes del banco que serían más propensos a adquirir el nuevo producto "Billetera Virtual".
@@ -15,7 +12,7 @@
 
 * Detalles de la experimentación ejecutada con AutoAI
 
-	* Link al flujo de resultado de AutoAI:(AutoAI-exp1.png) []
+	* Link al flujo de resultado de AutoAI:(AutoAI-exp1.png) [/home/kdj/tdsp_template/docs/modeling/AutoAI-exp1.PNG]
 	* Experimento de entrenamiento: Clasificación binaria
 	* Algortimo con la mejor precisión: Snap Random Forest Classifier de SnapML lib.
 	* Precisión del mejor modelo obtenido: 0.96
@@ -40,18 +37,18 @@
 		
 
 ## Results (Model Performance)
-* Gráfica de desempeño del mejor modelo: (curvaROC-AutoAI.png)[]
+* Gráfica de desempeño del mejor modelo: (curvaROC-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/curvaROC-AutoAI.PNG]
 
-* Tabla de resultados de métricas de desempeño del mejor modelo: (tabla-resultados-AutoAI.png)[] 
+* Tabla de resultados de métricas de desempeño del mejor modelo: (tabla-resultados-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/tabla-resultados-AutoAI.PNG] 
 
-* Se almacenó el cuaderno de Jupyter generado con experimento ejecutado de AutoAI: (propensionNuevoProducto-ntb.ipynb)[]
+* Se almacenó el cuaderno de Jupyter generado con experimento ejecutado de AutoAI: (propensionNuevoProducto-ntb.ipynb)[/home/kdj/tdsp_template/scripts/training/propensionNuevoProducto-ntb.ipynb]
 
 
 ## Model Understanding
 
-* Importancia de las variables escogidas por el mejor modelo: (ImportanciaVariables-AutoAI.png)[]
+* Importancia de las variables escogidas por el mejor modelo: (ImportanciaVariables-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/ImportanciaVariables-AutoAI.PNG]
 
-* 
+
 
 ## Conclusion and Discussions for Next Steps
 
