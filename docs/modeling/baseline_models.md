@@ -12,7 +12,7 @@
 
 * Detalles de la experimentación ejecutada con AutoAI
 
-	* Link al flujo de resultado de AutoAI:(AutoAI-exp1.png) [/home/kdj/tdsp_template/docs/modeling/AutoAI-exp1.PNG]
+	* Link al flujo de resultado de AutoAI: ![](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/modeling/AutoAI-exp1.PNG)
 	* Experimento de entrenamiento: Clasificación binaria
 	* Algortimo con la mejor precisión: Snap Random Forest Classifier de SnapML lib.
 	* Precisión del mejor modelo obtenido: 0.96
@@ -37,16 +37,16 @@
 		
 
 ## Results (Model Performance)
-* Gráfica de desempeño del mejor modelo: (curvaROC-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/curvaROC-AutoAI.PNG]
+* Gráfica de desempeño del mejor modelo: ![](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/modeling/curvaROC-AutoAI.PNG)
 
-* Tabla de resultados de métricas de desempeño del mejor modelo: (tabla-resultados-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/tabla-resultados-AutoAI.PNG] 
+* Tabla de resultados de métricas de desempeño del mejor modelo: ![](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/modeling/tabla-resultados-AutoAI.PNG) 
 
-* Se almacenó el cuaderno de Jupyter generado con experimento ejecutado de AutoAI: (propensionNuevoProducto-ntb.ipynb)[/home/kdj/tdsp_template/scripts/training/propensionNuevoProducto-ntb.ipynb]
+* Se almacenó el cuaderno de Jupyter generado con experimento ejecutado de AutoAI: [propensionNuevoProducto-ntb.ipynb](https://github.com/DCalvacheB/mlds6-project/blob/master/scripts/training/propensionNuevoProducto-ntb.ipynb)
 
 
 ## Model Understanding
 
-* Importancia de las variables escogidas por el mejor modelo: (ImportanciaVariables-AutoAI.png)[/home/kdj/tdsp_template/docs/modeling/ImportanciaVariables-AutoAI.PNG]
+* Importancia de las variables escogidas por el mejor modelo: ![](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/modeling/ImportanciaVariables-AutoAI.PNG)
 
 
 
