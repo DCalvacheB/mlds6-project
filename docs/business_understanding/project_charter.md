@@ -3,7 +3,7 @@
 ## Business background
 
 * Who is the client, what business domain the client is in.
-El cliente, Unibank, un banco muy importante del sector financiero de Alenamania, se encuentra ubicado a lo largo del territorio, y se caracteriza por ser el primer 
+El cliente, Unibank, un banco muy importante del sector financiero de Alemania, se encuentra ubicado a lo largo del territorio, y se caracteriza por ser el primer 
 banco en realizar la completa transformación digital de todo el servicio de atención al cliente.
 
 * What business problems are we trying to address?
