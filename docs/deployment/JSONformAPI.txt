@@ -1,0 +1,30 @@
+{
+	"input_data": [
+		{
+			"fields": [
+				Unnamed,
+				Age,
+				Job,
+				Marital.Status,
+				Education,
+				Credit,
+				Balance..euros,
+				Housing.Loan,
+				Personal.Loan,
+				Contact,
+				Last.Contact.Day,
+				Last.Contact.Month,
+				Last.Contact.Duration,
+				Campaign,
+				Pdays,
+				Previous,
+				Subscription
+				]
+			"values": [ 1, 58, management, 
+				married, terciary, 0, 
+				1245, 1, 0, unknown,
+				5, may, 261,
+				1, -1, 0, 0 ]
+		}
+	]
+}
