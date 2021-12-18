@@ -16,7 +16,7 @@ Tableros de control
 ----
 En el proyecto se consideró la contrucción de un tablero de control para el análisis de los datos de entrada del modelo que quedó desplegado haciendo uso del
 servicio Cognos Analytics embebido en el Cloud Pak 4 Data. En la siguiente ruta puede visualizar un pantallazo del tablero generado (Cognos Analytics dashboard)
-![Tablero de Control - Unibank](/home/kdj/tdsp_template/docs/deployment/dashboard_example.jpeg)
+![Tablero de Control - Unibank](https://github.com/DCalvacheB/mlds6-project/blob/master/docs/deployment/dashboard_example.jpeg)
 Este tablero consta de 1 hoja, 2 KPIs correspondientes a los prestamos de vivienda y préstamo de gastos personales, y medidas correspondientes a los demográficos.
 
 
